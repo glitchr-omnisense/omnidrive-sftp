@@ -1,16 +1,16 @@
 # omnidrive/sftp
 
 A directory of an SFTP server, over SSH, as an
-[omniscient/omnidrive](https://github.com/glitchr-studio/omnidrive) drive, through
+[omnisense/omnidrive](https://github.com/glitchr-omnisense/omnidrive) drive, through
 league/flysystem-sftp-v3 (`SftpAdapter`, phpseclib 3: pure PHP, no `ssh2` extension).
 
 ## Installation
 
 ```sh
-composer require omniscient/omnidrive omnidrive/sftp
+composer require omnisense/omnidrive omnidrive/sftp
 ```
 
-Requires PHP 8.2, `omniscient/omnidrive` (1.x) and `league/flysystem-sftp-v3` (^3.0, with
+Requires PHP 8.2, `omnisense/omnidrive` (1.x) and `league/flysystem-sftp-v3` (^3.0, with
 `phpseclib/phpseclib` 3).
 
 ## Credentials
@@ -116,4 +116,4 @@ drive is built. Not verified: a private key, the SSH agent, the server's key che
 
 An independent, unofficial client, not affiliated with The PHP League or phpseclib. Whoever runs it is responsible for the data it stores and the
 access it gives (a public or temporary address serves the file to whoever holds it); see the core's
-Responsibility section ([omniscient/omnidrive](https://github.com/glitchr-studio/omnidrive#responsibility)).
+Responsibility section ([omnisense/omnidrive](https://github.com/glitchr-omnisense/omnidrive#responsibility)).

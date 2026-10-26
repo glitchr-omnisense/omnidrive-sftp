@@ -1,10 +1,10 @@
 # omnidrive/sftp
 
-A directory of an SFTP server, over SSH, as an [omnidrive](https://github.com/glitchr-studio/omnidrive)
+A directory of an SFTP server, over SSH, as an [omnidrive](https://github.com/glitchr-omnisense/omnidrive)
 drive, through league/flysystem-sftp-v3 (phpseclib 3, pure PHP: no ssh2 extension).
 
 ```sh
-composer require omniscient/omnidrive omnidrive/sftp
+composer require omnisense/omnidrive omnidrive/sftp
 ```
 
 ```php
