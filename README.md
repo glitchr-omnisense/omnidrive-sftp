@@ -38,4 +38,6 @@ The connection is opened on the first operation. `capabilities()`: not local, pu
   answer is a `DriveException` of the operation asked, nothing connecting when the drive is built.
 - Not verified: a private key, the SSH agent, the server's key checked (`host_fingerprint`).
 
-License: MIT. Unofficial; not affiliated with The PHP League or phpseclib.
+## Responsibility
+
+Unofficial; affiliated with none of the servers it reaches, nor with The PHP League or phpseclib. Each server keeps its own terms; whoever runs this package answers for the credentials it holds, the data it stores and the access a public address gives. MIT licence.
