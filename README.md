@@ -38,6 +38,16 @@ The connection is opened on the first operation. `capabilities()`: not local, pu
   answer is a `DriveException` of the operation asked, nothing connecting when the drive is built.
 - Not verified: a private key, the SSH agent, the server's key checked (`host_fingerprint`).
 
+## Usage policy
+
+`policy.json` (omnisense/contracts' schema, named in `composer.json` as `extra.omnisense.policy`;
+read on 2026-11-10): No third party of the package's: the SFTP server the site names. No limit
+(`[]`); a rented server's operator's terms are the site's to add. The key is the server's account.
+Only the connection is retried, before any request: no write is sent twice. Nothing in the drive
+counts calls; [the family's
+page](https://github.com/glitchr-omnisense/omnidrive/blob/1.x/docs/policies.md) has every
+provider's.
+
 ## Responsibility
 
 Unofficial; affiliated with none of the servers it reaches, nor with The PHP League or phpseclib. Each server keeps its own terms; whoever runs this package answers for the credentials it holds, the data it stores and the access a public address gives. MIT licence.
